@@ -1,6 +1,6 @@
 echo "# python_learn" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
+git add .
+git commit -m "add"
 git remote add origin https://github.com/pengfen/python_learn.git
-git push -u origin master
+git push origin master
