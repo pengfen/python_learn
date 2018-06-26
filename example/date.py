@@ -19,3 +19,9 @@ monthRange = calendar.monthrange(2016, 9)
 print(monthRange) # 输出的是元组
 print(monthRange[0]) # 当月第一天星期几
 print(monthRange[1]) # 当前共有多少天
+
+# 输入指定年月
+y = int(input("请输入年份: "))
+m = int(input("请输入月份: "))
+
+print(calendar.month(y, m))
